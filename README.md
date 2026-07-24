@@ -1,5 +1,5 @@
-### Caso: GymManager
-# Contexto
+# Caso: GymManager
+## Contexto
 
 GymManager es un sistema destinado a gimnasios pequeños y medianos que permite administrar socios, entrenadores, rutinas y asistencias.
 
@@ -7,7 +7,7 @@ Actualmente el gimnasio utiliza planillas de Excel y cuadernos para registrar to
 
 El propietario desea digitalizar la gestión del gimnasio mediante una aplicación de escritorio desarrollada en Java.
 
-# Objetivos
+### Objetivos
 
 El sistema deberá permitir administrar:
 
@@ -18,7 +18,7 @@ El sistema deberá permitir administrar:
 - pagos
 - asistencia
 ## Requerimientos iniciales
-# Gestión de socios
+### Gestión de socios
 
 El sistema debe permitir registrar nuevos socios indicando:
 
@@ -36,7 +36,7 @@ Un socio puede estar:
 - Activo
 - Suspendido
 - Inactivo
-# Gestión de entrenadores
+### Gestión de entrenadores
 
 El gimnasio posee entrenadores.
 
@@ -52,7 +52,7 @@ Un entrenador puede tener varios socios asignados.
 
 Cada socio posee un entrenador principal.
 
-# Rutinas
+### Rutinas
 
 Cada rutina tiene:
 
@@ -72,7 +72,7 @@ Cada ejercicio posee:
 
 Un mismo ejercicio puede pertenecer a muchas rutinas.
 
-# Membresías
+### Membresías
 
 El gimnasio ofrece distintos planes.
 
@@ -91,7 +91,7 @@ Cada membresía posee:
 
 Un socio solo puede tener una membresía activa.
 
-# Pagos
+### Pagos
 
 Cuando un socio paga su membresía se registra:
 
@@ -127,7 +127,7 @@ El propietario desea poder consultar:
 - rutinas disponibles
 - ingresos del mes
 - cantidad de asistencias
-# Restricciones
+### Restricciones
 - No se puede eliminar un socio con pagos registrados.
 - No se puede registrar un pago para un socio inactivo.
 - No puede haber documentos repetidos.
